@@ -1,162 +1,270 @@
 # 🐉 Dragon Noodles - Tekbun Botanica
 
-## Deskripsi Proyek
+## 📌 Deskripsi Proyek
 
-**Dragon Noodles** adalah inovasi **Sustainable Digital Business** dari mahasiswa Universitas Terbuka yang menggabungkan:
-- 🍜 Mie sehat berbasis limbah kulit buah naga (antioksidan tinggi)
-- ♻️ Smart Biodegradable Eco-Packaging dengan seed paper
-- 📱 Platform digital pelacakan dampak lingkungan real-time
-- 🌱 Gerakan digital berkelanjutan: **Scan → Masak → Tanam**
+**Dragon Noodles** adalah platform **Sustainable Digital Business** inovatif dari mahasiswa Universitas Terbuka yang mengintegrasikan:
 
----
-
-## Konsep: Scan, Masak, Tanam
-
-### 1. 📱 SCAN
-Pindai QR Code pada label cup Dragon Noodles untuk:
-- Terhubung ke sistem validasi digital
-- Akses panduan edukasi Tekbun
-- Verifikasi produk authentik
-
-### 2. 🍜 MASAK
-Ikuti instruksi interaktif pengolahan mie agar:
-- Nutrisi alami (serat, kalsium, vitamin) tetap terjaga
-- Kualitas rasa optimal
-- Proses memasak efisien
-
-### 3. 🌱 TANAM
-Lepaskan kertas kemasan berbenih (seed paper) untuk:
-- Tanam langsung di tanah
-- Lapor kontribusi hijau Anda
-- Update Dashboard Dampak Lingkungan
+- 🍜 **Produk**: Mie sehat berbasis limbah kulit buah naga (antioksidan tinggi)
+- ♻️ **Packaging**: Smart Biodegradable Eco-Packaging dengan seed paper
+- 📱 **Platform Digital**: Tracking dampak lingkungan real-time
+- 🌍 **Gerakan**: **Scan → Masak → Tanam** (Sustainable Journey)
+- 💳 **Payment**: Midtrans integration untuk e-commerce
+- 📊 **Analytics**: Admin dashboard untuk tracking & reporting
+- 🚀 **PWA**: Progressive Web App untuk mobile experience
 
 ---
 
-## Metrik Dashboard Real-Time
+## ✨ Fitur Lengkap - 6 MODUL COMPLETE
 
-- 📦 **Cup Terjual** - Total produk yang habis terjual
-- 🗑️ **Limbah Organik Terolah** - Kilogram limbah kulit buah naga yang diproses
-- 🌿 **Benih Seed-Paper Ditanam** - Total seed paper yang ditanam konsumen
-- 🏙️ **Kota Berpartisipasi** - Jumlah kota yang terlibat dalam gerakan
+### **✅ MODUL 1: ENHANCED UI/UX**
+- Animasi fade-in saat scroll
+- Smooth transitions & hover effects
+- Dark mode toggle (🌙)
+- Mobile responsive design
+- Loading animations
+- Notification system (success/error/info/warning)
 
----
+### **✅ MODUL 2: FIREBASE BACKEND**
+- Firestore database integration
+- Real-time data sync
+- Form submission handling
+- Authentication system (ready)
+- Automatic dashboard updates
 
-## Fitur Website
+### **✅ MODUL 3: MIDTRANS PAYMENT**
+- Payment token creation
+- Payment verification
+- Transaction history tracking
+- Invoice management
+- Multiple payment methods
 
-✅ **Responsive Design** - Kompatibel desktop, tablet, mobile
-✅ **Interactive Dashboard** - Live update dari form konsumen
-✅ **Form Kontribusi** - Lapor penanaman benih & data demografis
-✅ **Navigation Auto-Active** - Menu berubah saat scroll
-✅ **Modern UI/UX** - Tema merah buah naga + hijau organik
+### **✅ MODUL 4: ADMIN DASHBOARD**
+- View all submissions
+- Analytics by city & status
+- Real-time metrics
+- Export data to CSV
+- Transaction history
 
----
+### **✅ MODUL 5: PWA (Progressive Web App)**
+- Offline functionality
+- Service worker caching
+- Install to home screen
+- Push notifications ready
+- Background sync
 
-## Struktur File
-
-```
-dragon-noodles/
-├── index.html          # Halaman utama
-├── css/
-│   └── style.css       # Stylesheet
-├── js/
-│   └── script.js       # JavaScript logic
-└── README.md           # Dokumentasi
-```
-
----
-
-## Teknologi yang Digunakan
-
-- **HTML5** - Struktur markup semantik
-- **CSS3** - Responsive design dengan CSS Grid
-- **Vanilla JavaScript** - Logika interaktif tanpa framework
-- **Git** - Version control
-
----
-
-## Tim Pengembang
-
-| Peran | Nama | Institusi |
-|------|------|----------|
-| **Ketua** | Intan Nuraeni | Universitas Terbuka (Ilmu Administrasi Negara) |
-| **Produksi** | Dede Hendar Komara | Universitas Terbuka |
-| **Pemasaran** | Cindi Damayanti | Universitas Terbuka |
+### **✅ MODUL 6: DEPLOYMENT & PRODUCTION**
+- GitHub Pages ready
+- Vercel deployment
+- Netlify deployment
+- SSL certificate ready
+- Performance optimized
 
 ---
 
-## Saluran Pemasaran
+## 🚀 Quick Start (5 Langkah)
 
-- 🛍️ **Shopee**: Tekbun Official
-- 📦 **Tokopedia**: Tekbun Botanica
-- 📱 **TikTok Shop & Instagram**: @dragonnoodles.id
-
----
-
-## Cara Menggunakan Website
-
-### 1. Clone Repository
+### **1. Clone Repository**
 ```bash
 git clone https://github.com/nuraeni276/dragon-noodles.git
 cd dragon-noodles
 ```
 
-### 2. Buka di Browser
+### **2. Install Dependencies**
 ```bash
-# Gunakan Live Server (VS Code)
-right-click index.html → Open with Live Server
-
-# Atau buka langsung
-open index.html
+npm install
 ```
 
-### 3. Jelajahi Website
-- Scroll melalui hero section
-- Pelajari konsep Scan-Masak-Tanam
-- Lihat dashboard dampak lingkungan
-- Isi form untuk update metrics
+### **3. Setup Environment**
+```bash
+cp .env.example .env
+# Edit .env dengan konfigurasi Firebase & Midtrans Anda
+```
+
+### **4. Run Development Server**
+```bash
+npm run dev
+# Server berjalan di http://localhost:3000
+```
+
+### **5. Buka di Browser**
+```
+http://localhost:3000
+```
 
 ---
 
-## Fitur JavaScript
+## 🔧 Setup Firebase
 
-### Form Submission
-- Update dashboard metrics secara real-time
-- Validasi input form
-- Alert success message
-- Reset form otomatis
+### **1. Buat Firebase Project**
+- Buka [Firebase Console](https://console.firebase.google.com)
+- Klik "Create Project"
+- Beri nama: "Dragon Noodles"
+- Setup Firestore Database
+- Download service account key
 
-### Navigation Scroll Detection
-- Menu aktif berubah saat user scroll
-- Smooth scroll behavior
-- Auto-highlight section yang sedang dilihat
+### **2. Konfigurasi File**
+```bash
+mkdir config
+cp /path/to/firebase-key.json config/firebase-key.json
+```
 
----
-
-## Rencana Pengembangan (Future)
-
-- [ ] Backend API untuk penyimpanan data real
-- [ ] Database untuk tracking QR Code
-- [ ] Payment gateway integration (Shopee, Tokopedia)
-- [ ] Mobile app native
-- [ ] Admin dashboard analytics
-- [ ] Email notification system
-- [ ] Leaderboard kota berpartisipasi
-- [ ] Reward/voucher system
+### **3. Update .env**
+```env
+FIREBASE_API_KEY=YOUR_KEY
+FIREBASE_PROJECT_ID=YOUR_PROJECT_ID
+FIREBASE_AUTH_DOMAIN=dragon-noodles.firebaseapp.com
+# ... lihat .env.example untuk lengkapnya
+```
 
 ---
 
-## Lisensi
+## 💳 Setup Midtrans
 
-&copy; 2026 Tekbun Botanica - Dragon Noodles  
-Hak Cipta Dilindungi (Business Plan Proposal Digital)
+### **1. Buat Akun Midtrans**
+- Daftar di [Midtrans](https://midtrans.com)
+- Verify akun Anda
+- Dapatkan Server Key & Client Key
+
+### **2. Update .env**
+```env
+MIDTRANS_SERVER_KEY=YOUR_SERVER_KEY
+MIDTRANS_CLIENT_KEY=YOUR_CLIENT_KEY
+MIDTRANS_MERCHANT_ID=YOUR_MERCHANT_ID
+```
 
 ---
 
-## Kontribusi
+## 🌐 API Endpoints
 
-Untuk kontribusi atau feedback, silakan hubungi tim melalui:
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/api/health` | Health check |
+| POST | `/api/submissions` | Submit form data |
+| GET | `/api/stats` | Get dashboard stats |
+| POST | `/api/payment/create-token` | Create payment token |
+| POST | `/api/payment/verify` | Verify payment |
+| GET | `/api/admin/submissions` | Get all submissions |
+| GET | `/api/admin/analytics` | Get analytics data |
+| GET | `/api/admin/export-csv` | Export to CSV |
+
+---
+
+## 📱 PWA Installation
+
+### **Desktop Browser**
+1. Buka website
+2. Klik "Install App" (bawah kanan)
+3. Atau: Menu → "Install app"
+
+### **Mobile Browser**
+1. Buka di browser mobile
+2. Tap menu → "Install app"
+3. Atau: Add to home screen
+
+---
+
+## 🌍 Deployment
+
+### **Option 1: GitHub Pages (RECOMMENDED)**
+```
+https://nuraeni276.github.io/dragon-noodles
+```
+
+### **Option 2: Vercel**
+```bash
+npm install -g vercel
+vercel login
+vercel
+```
+
+### **Option 3: Netlify**
+```bash
+npm install -g netlify-cli
+netlify login
+netlify deploy
+```
+
+---
+
+## 📁 Struktur File
+
+```
+dragon-noodles/
+├── index.html              # Halaman utama (PWA ready)
+├── manifest.json          # PWA manifest
+├── sw.js                  # Service worker
+├── server.js              # Express backend
+├── package.json           # Dependencies
+├── .env.example           # Environment template
+├── .gitignore             # Git configuration
+├── css/
+│   └── style.css         # Stylesheet dengan animations
+├── js/
+│   └── script.js         # Frontend logic
+├── config/
+│   └── firebase-key.json # Firebase credentials
+└── README.md             # Dokumentasi
+```
+
+---
+
+## 👥 Tim Pengembang
+
+| Peran | Nama | Institusi |
+|------|------|----------|
+| **Ketua** | Intan Nuraeni | Universitas Terbuka |
+| **Produksi** | Dede Hendar Komara | Universitas Terbuka |
+| **Marketing** | Cindi Damayanti | Universitas Terbuka |
+
+---
+
+## 🛍️ E-Commerce Links
+
+- 🛍️ **Shopee**: [Tekbun Official](https://shopee.co.id/)
+- 📦 **Tokopedia**: [Tekbun Botanica](https://tokopedia.com/)
+- 📱 **Instagram**: [@dragonnoodles.id](https://instagram.com/dragonnoodles.id)
+- 🎵 **TikTok**: [@dragonnoodles.id](https://tiktok.com/@dragonnoodles.id)
+
+---
+
+## 📞 Support
+
+Untuk pertanyaan atau feedback:
+- Email: support@dragonnoodles.id
 - Instagram: @dragonnoodles.id
-- Shopee/Tokopedia: Tekbun Official
+- WhatsApp: +62-XXX-XXXX-XXXX
+
+---
+
+## 📄 Lisensi
+
+&copy; 2026 **Tekbun Botanica - Dragon Noodles**  
+Hak Cipta Dilindungi (Business Plan Proposal Digital)  
+License: MIT
+
+---
+
+## 🎯 Roadmap
+
+- [ ] Mobile app native (React Native)
+- [ ] Leaderboard fitur (top contributors)
+- [ ] Reward system (vouchers & badges)
+- [ ] Live tracking pengiriman
+- [ ] Customer testimonials
+- [ ] Influencer collaboration
+- [ ] Sustainability report
+- [ ] Blockchain verification
+
+---
+
+## 🎊 Kontribusi
+
+Kami welcome kontribusi dari komunitas! Silakan:
+1. Fork repository ini
+2. Create feature branch
+3. Commit changes
+4. Push to branch
+5. Open Pull Request
 
 ---
 
