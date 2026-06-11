@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Noodles - Scan Masak Tanam | Tekbun Botanica</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <h1>DRAGON NOODLES</h1>
+                <span>BY TEKBUN BOTANICA</span>
+            </div>
+            <nav id="main-nav">
+                <a href="#home" class="active">Home</a>
+                <a href="#konsep">Scan Masak Tanam</a>
+                <a href="#dashboard">Dashboard Dampak</a>
+                <a href="#kontribusi">Form Aksi</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Mbah Limbah Jadi Berkah, Makan Mie Rawat Bumi!</h2>
+            <p>Inovasi <b>Sustainable Digital Business</b> mahasiswa Universitas Terbuka. Mie sehat antioksidan tinggi berbasis limbah kulit buah naga dengan <i>Smart Biodegradable Eco-Packaging</i>.</p>
+            <a href="#konsep" class="cta-btn">Mulai Pengalaman Digital Ekosistem</a>
+        </div>
+    </section>
+
+    <section class="konsep" id="konsep">
+        <h3 class="section-title">Konsep Gerakan Digital Berkelanjutan</h3>
+        <div class="grid-3">
+            <div class="card">
+                <div class="card-icon">📱</div>
+                <h4>1. SCAN</h4>
+                <p>Pindai <b>QR Code</b> pada label cup Dragon Noodles Anda untuk terhubung langsung ke sistem validasi digital dan panduan edukasi Tekbun.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🍜</div>
+                <h4>2. MASAK</h4>
+                <p>Ikuti instruksi interaktif pengolahan mie kulit buah naga Anda agar nutrisi alami seperti serat, kalsium, dan vitaminnya tetap terjaga sempurna.</p>
+            </div>
+            <div class="card hijau">
+                <div class="card-icon">🌱</div>
+                <h4>3. TANAM</h4>
+                <p>Lepaskan kertas kemasan berbenih khusus (<i>seed paper label</i>), tanam langsung di tanah, dan laporkan kontribusi Anda untuk menghijaukan bumi!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="dashboard-section" id="dashboard">
+        <div class="dashboard-container">
+            <h3 class="section-title">Dashboard Dampak Lingkungan Real-Time</h3>
+            <p style="text-align: center; max-width: 700px; margin: -20px auto 30px auto; color: #555;">
+                Setiap cup yang Anda beli berkontribusi langsung pada angka pelacakan lingkungan di bawah ini. Transparan, digital, dan berdampak nyata.
+            </p>
+            <div class="stats-grid">
+                <div class="stat-box merah">
+                    <span class="stat-number" id="stat-terjual">12568</span>
+                    <span class="stat-label">Cup Terjual (Pcs)</span>
+                </div>
+                <div class="stat-box merah">
+                    <span class="stat-number" id="stat-limbah">3142</span>
+                    <span class="stat-label">Limbah Organik Terolah (Kg)</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number" id="stat-benih">8732</span>
+                    <span class="stat-label">Benih Seed-Paper Ditanam</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number" id="stat-kota">53</span>
+                    <span class="stat-label">Kota Berpartisipasi</span>
+                </div>
+            </div>
+            <p style="font-size: 12px; color: #777; text-align: center; margin-top: 20px; font-style: italic;">
+                *Data diperbarui otomatis secara real-time berdasarkan laporan formulir aksi konsumen.
+            </p>
+        </div>
+    </section>
+
+    <section class="form-section" id="kontribusi">
+        <div class="form-card">
+            <h4 style="margin-top:0; color: var(--secondary-color); font-size: 20px; text-align: center;">Laporkan Penanaman Benih Anda</h4>
+            <p style="font-size:13px; color:#666; text-align:center; margin-bottom: 25px;">Klaim kontribusi hijau Anda untuk memperbarui data Dashboard Dampak Lingkungan global kami.</p>
+            
+            <form id="form-aksi">
+                <div class="form-group">
+                    <label>ID Transaksi / Unik QR-Code Cup</label>
+                    <input type="text" placeholder="Contoh: DN-2026-98X7" required>
+                </div>
+                <div class="form-group">
+                    <label>Nama Lengkap Konsumen</label>
+                    <input type="text" placeholder="Masukkan nama Anda" required>
+                </div>
+                <div class="form-group">
+                    <label>Kota / Lokasi Penanaman</label>
+                    <input type="text" id="input-kota" placeholder="Misal: Bandung, Jakarta, Surabaya" required>
+                </div>
+                <div class="form-group">
+                    <label>Status Aktivitas Digital</label>
+                    <select id="input-status">
+                        <option value="tanam">Sudah Memasak & Menanam Kertas Benih (Seed Paper)</option>
+                        <option value="masak">Baru Memasak Mie Sehat Kulit Buah Naga</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-btn">Kirim & Perbarui Dampak Bumi</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Tentang Startup</h4>
+                <p><b>Tekbun Botanica</b> adalah inisiatif Digital Eco-Entrepreneurship yang menggabungkan hilirisasi produk pangan sehat non-limbah dengan teknologi pelacakan lingkungan digital.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Tim Pengembang UT</h4>
+                <p><b>Ketua:</b> Intan Nuraeni (Ilmu Administrasi Negara)</p>
+                <p><b>Produksi:</b> Dede Hendar Komara</p>
+                <p><b>Pemasaran:</b> Cindi Damayanti</p>
+                <p><b>Institusi:</b> Universitas Terbuka</p>
+            </div>
+            <div class="footer-col">
+                <h4>Saluran Pemasaran</h4>
+                <p>🛍️ Shopee: Tekbun Official</p>
+                <p>📦 Tokopedia: Tekbun Botanica</p>
+                <p>📱 TikTok Shop & Instagram: @dragonnoodles.id</p>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 Tekbun Botanica - Dragon Noodles. Hak Cipta Dilindungi (Business Plan Proposal Digital).
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
