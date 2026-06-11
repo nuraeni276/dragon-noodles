@@ -1,0 +1,26 @@
+{
+  "name": "Dragon Noodles - Tekbun Botanica",
+  "short_name": "Dragon Noodles",
+  "description": "Mie sehat antioksidan dari limbah kulit buah naga dengan eco-packaging biodegradable",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#d62828",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><text y='160' font-size='150'>🐉</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["shopping", "lifestyle"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%23fff0f3' width='540' height='720'/><text x='270' y='360' font-size='100' text-anchor='middle'>🐉</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ]
+}
